@@ -1,0 +1,21 @@
+{
+  "name": "king of the hill",
+  "homepage": "https://github.com/joshbyvelds/king-of-the-hill",
+  "authors": [
+    "Josh Byvelds <joshbyvelds@users.noreply.github.com>"
+  ],
+  "description": "a simple stratagy game",
+  "main": "index.html",
+  "keywords": [
+    "gane"
+  ],
+  "license": "GNU General Public License v3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
