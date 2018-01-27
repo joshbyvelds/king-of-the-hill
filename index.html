@@ -8,7 +8,56 @@
 
 <body>
     <header>King of the Hill</header>
-    <main></main>
+    <main>
+        <div class="title_screen">
+            <button id="title_new_game">New Game</button>
+            <button id="title_load_game">Load Game</button>
+        </div>
+
+        <div id="newgame_menu" class="menu newgame_menu">
+            <div class="menu_title">Start a New Game</div>
+            <label for="players">Number of AI Players: <input type="number" min="2" max="8" name="players"></label><br />
+            <label for="decks">Number of Card Decks: <input type="number" min="1" max="10" name="decks"></label><br />
+            <label for="deck_type">Deck Type: <select name="deck_type" id="">
+                <option value="standard">Standard</option>
+                <option value="standard">Custom Deck</option>
+            </select>
+            </label><br />
+            <label for="rings">Number of Rings: <input type="number" min="1" max="10" name="rings"></label><br />
+            <label for="pawn">Number of Pawns: <input type="number" min="3" max="12" name="pawns"></label><br />
+        </div>
+
+        <div id="loadgame_menu" class="menu loadgame_menu">
+            <div class="menu_title">Load Game</div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Load</th>
+                </tr>
+
+                <tr>
+                    <td>Almost Won</td>
+                    <td>01/01/2018 12:90 AM</td>
+                    <td><button>Load Game</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="custom_deck_menu" class="menu customdeck_menu">
+            <div class="menu_title">Customize Deck</div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+
+
+    </main>
     <footer>- Created in 2018 - Josh Byvelds-</footer>
     <script src="scripts/master.min.js"></script>
 </body>
